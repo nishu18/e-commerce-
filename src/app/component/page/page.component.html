@@ -1,0 +1,15 @@
+
+<div class="item-details" >
+    <div>
+        <h2>{{ itemId?.title }}</h2>
+        <img src="{{ itemId?.image }}" alt="Item Image">
+    </div>
+   <div>
+    <p>Category: {{ itemId?.category }}</p>
+    <p class="price">Price: {{ itemId?.price }}</p>
+    <p class="rating">Rating: {{ itemId?.rating?.rate }} ({{ itemId?.rating?.count }} reviews)</p>
+        <p>{{ itemId?.description }}</p>
+
+   </div>
+  
+</div>  

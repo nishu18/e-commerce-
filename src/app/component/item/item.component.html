@@ -1,0 +1,17 @@
+<div class="product-content">
+<h1>Product Listing</h1>
+<p class="detail">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil non, et quidem magni, qui cum molestiae laudantium sit,  </p>
+</div>
+
+<div class="dress-listings">
+    <div *ngFor="let item of userDetail" (click)="onRelocate(item)">
+        <div class="dress-item">
+
+          <img src="{{ item.image }}" alt="Item Image">
+          <h2>{{ item.title }}</h2>
+          <p>Category: {{ item.category }}</p>
+          <p class="price">Price: {{ item.price }}</p>
+          <p class="rating">Rating: {{ item.rating.rate }} ({{ item.rating.count }} reviews)</p>
+      </div>
+    </div>
+    </div>

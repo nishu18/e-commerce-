@@ -1,0 +1,39 @@
+/* page.component.css */
+
+.item-details {
+    /* max-width: 400px; */
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    /* border: 1px solid #ccc; */
+    border-radius: 5px;
+    display: flex;
+    gap: 200px;
+    /* flex-wrap: wrap; */
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin-bottom: 5px;
+  }
+  
+  .price {
+    font-weight: bold;
+  }
+  
+  .rating {
+    color: #f90;
+    font-weight: bold;
+  }
+  
